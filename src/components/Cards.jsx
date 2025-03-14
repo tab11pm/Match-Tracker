@@ -2,9 +2,9 @@ import axios from 'axios'
 import { RefreshCw } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { toast, ToastContainer } from 'react-toastify'
-import { defaultToast } from '../../consts/toast'
-import Card from './Card/Card'
-import CardSkeleton from './Card/CardSkeleton'
+import { defaultToast } from '../consts/toast'
+import Card from './ui/Card/Card'
+import CardSkeleton from './ui/Card/CardSkeleton'
 const Cards = () => {
 	const [match, setMatch] = useState([])
 	const [loader, setLoader] = useState(false)

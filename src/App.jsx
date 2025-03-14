@@ -1,4 +1,4 @@
-import Cards from './components/ui/Cards'
+import Cards from './components/Cards'
 const App = () => {
 	return (
 		<>

@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path'
+import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -20,9 +20,9 @@ export default defineConfig({
 	},
 	server: {
 		host: '0.0.0.0',
-		port: parseInt(process.env.VITE_PORT), // Читаем порт из .env, по умолчанию 3000
+		port: parseInt(process.env.VITE_PORT) || 5173,
 	},
 	preview: {
-		port: parseInt(process.env.VITE_PORT), // Читаем порт из .env, по умолчанию 3000
+		port: parseInt(process.env.VITE_PORT) || 5173,
 	},
 })
