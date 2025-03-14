@@ -1,0 +1,77 @@
+{
+   "client": {
+      "home": {
+         "header": "Hi, ",
+         "welcome": "For our beloved clients",
+         "pay": "Pay within 40 days and get a discount!",
+         "after": "After",
+         "payAfter": "days you will pay",
+         "more": "show more",
+         "limit": "Limit"
+
+      },
+      "qr" : {
+         "header": "Scan your QR",
+         "text": "Please align the QR code within the frame to scan it easily."
+      },
+      "settings": {
+         "data": "My data",
+         "help": "Help",
+         "privacy": "Privacy Policy",
+         "logout": "Log Out"
+      },
+      
+      "footer": {
+         "home": "Home",
+         "list": "List",
+         "qr": "QR",
+         "settings": "Settings"
+      },
+      
+      "about": {
+         "header": "About Me",
+         "name": "Name",
+         "surname": "Surname",
+         "birthday": "Birthday",
+         "phone": "Phone Number",
+         "gender": "Gender",
+         "default": "Select the gender",
+         "male": "Male",
+         "female": "Female",
+         "other": "Other",
+         "email": "Email",
+         "password": "Password"
+      },
+      "time": {
+         "today": "Today",
+         "yesterday": "Yesterday",
+         "lastWeek": "Last Week",
+         "January": "January",
+         "February": "February",
+         "March": "March",
+         "April": "April",
+         "May": "May",
+         "June": "June",
+         "July": "July",
+         "August": "August",
+         "September": "September",
+         "October": "October",
+         "November": "November",
+         "December": "December"
+      },
+      "validate": {
+         "password": "Password is Required",
+         "failPassword": "Password must be at least 8 characters long",
+         "email": "Email is Required",
+         "failEmail": "Enter a valid email",
+         "firstname": "Name is Required",
+         "lastname": "Surname is Required"
+      },
+      "recent": "Recent transactions",
+      "purchase": "Purchase for the amount of",
+      "settle": "Settle for the amount of",
+      "without": "Without card",
+      "noTransactions": "No Transactions"
+
+   }
+}

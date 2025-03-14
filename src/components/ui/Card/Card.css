@@ -1,0 +1,50 @@
+.arrow {
+	position: relative;
+	width: 10px;
+	height: 10px;
+	transition: rotate 0.3s ease;
+}
+.arrow._rotate {
+	rotate: 180deg;
+}
+
+.card-btn {
+	transition: filter 0.3s ease, scale 0.7s ease;
+}
+
+.arrow:before,
+.arrow::after {
+	position: absolute;
+	content: '';
+	width: 16px;
+	height: 4px;
+	background: #fff;
+}
+.arrow:before {
+	left: 2px;
+	rotate: -45deg;
+}
+.arrow::after {
+	content: '';
+	right: 2px;
+	rotate: 45deg;
+}
+
+.live {
+	background: rgba(67, 173, 40, 1);
+}
+
+.finished {
+	background: rgba(235, 2, 55, 1);
+}
+
+.scheduled {
+	background: rgba(235, 100, 2, 1);
+}
+
+@media (hover: hover) {
+	.card-btn:hover {
+		filter: drop-shadow(6px 6px 10px red);
+		scale: 1.011;
+	}
+}

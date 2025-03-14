@@ -1,0 +1,16 @@
+{
+  "short_name": "Nadim Cashback",
+  "name": "Nadim Cashback App Sample",
+  "icons": [
+    
+    {
+      "src": "imgs/Nadim_logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
